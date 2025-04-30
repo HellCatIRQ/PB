@@ -32,6 +32,7 @@ var removeTimeoutsMsg2 = {};
 //Ready Event
 client.on('ready', async () => {
 	console.log(`${client.user.tag} is Ready!`)
+	client.user.setStatus('invisible');
 
 	/*
 	client.user.setPresence({
